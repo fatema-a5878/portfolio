@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav{
     display: flex;
     align-items: center;
@@ -39,9 +43,12 @@ nav button{
 /* Nav complete */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../Media/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
 }
@@ -61,19 +68,95 @@ nav button{
     font-weight: bold;
     color: rgb(100, 96, 96);
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0;
 }
 .banner-title{
     font-size: 60px;
     font-weight:bolder;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 3px;
 }
 .banner p{
     color: rgb(134, 129, 129);
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 20px;
+    padding-top: 0;
 }
 .banner .pp{
     width: 500px;
-    margin-left: 500px;
+    margin-left: 550px;
+}
+/* Main section styles */
+/* About section styles */
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1140px;
+    height: 550px;
+    background-color: rgb(255, 248, 243);
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 380px;
+    margin-right: 380px;
+    border-radius: 5px;
+}
+.section-heading{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 170px;
+}
+.section-description{
+    padding: 25px 157px 100px 156px;
+    text-align: center;
+    color: rgb(134, 129, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 250px;
+    padding-left: 200px;
+    align-items: center;
+}
+.about-info{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-title{
+    margin-bottom: 10px;
+}
+.info-description{
+    font-weight: bold;
+}
+
+/* What I do start */
+.what-i-do{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#skill-description{
+    padding: 30px 347px;
+    color: rgb(134, 129, 129);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.skill-container{
+    width: 1140px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+.skill{
+    height: 377px;
+    width: 267px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px black;
 }
